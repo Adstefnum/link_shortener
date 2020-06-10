@@ -1,0 +1,30 @@
+</br></br><h4>ENTER LINK</h4>
+<center><form method="POST" action="{{ url_for('short.send_link') }}">
+	<input type="text" name="original_url"></br></br>
+	<button type="submit">SUBMIT</button>
+</form></center>
+
+<style>
+	h4{
+		font-family: Tahoma;
+		margin-left: 35px;
+	}
+	input {
+  width: 95%;
+  height: 40px;
+  border: 2px solid turquoise;
+  border-radius: 4px;
+}
+button{
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: Transparent;
+  border-style: solid;
+}
+
+button:hover {
+  background-color: #4CAF50;;
+  color:white;
+}
+</style>

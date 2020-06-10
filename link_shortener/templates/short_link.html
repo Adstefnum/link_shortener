@@ -1,0 +1,25 @@
+
+</br></br><h4>OLD LINK</h4>
+<center><form >
+	<input type="text" name="original_url" value = "{{original_url}}"></br></br>
+	</form></center>
+
+</br></br><h4>SHORT LINK</h4>
+<center><form >
+	<input id = "myInput" type="text" name="new" value="{{url_for('short.url_redirect',short_url = new, _external=True)}}"></br></br>
+</form></center>
+
+
+
+<style>
+	h4{
+		font-family: Tahoma;
+		margin-left: 35px;
+	}
+	input {
+  width: 95%;
+  height: 40px;
+  border: 2px solid turquoise;
+  border-radius: 4px;
+}
+</style>
